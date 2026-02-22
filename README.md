@@ -98,3 +98,5 @@ Optimizar funciones
 Entender la lógica general del sistema
 
 El código del proyecto se encuentra comentado para facilitar su comprensión.
+![Uploading image.png…]()
+
