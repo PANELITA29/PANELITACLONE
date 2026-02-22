@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <title>Películas - NetClone</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+ </head>
+ <body>
+  <nav class="navbar">
+   <div class="logo"><a href="../index.html">PANELITACLONE</a></div>
+   <div class="nav-links">
+    <a href="../index.html">Inicio</a>
+    <a href="peliculas.html" class="active">Películas</a>
+    <a href="series.html">Series</a>
+   </div>
+  </nav>
+
+  <div class="container">
+   <!-- Filtros -->
+   <form id="filter-form" class="filters-bar">
+    <input type="text" id="search-input" placeholder="Buscar..." />
+
+    <select id="genre-select">
+     <option value="">Todos los géneros</option>
+     <!-- Se llena con JS -->
+    </select>
+
+    <select id="sort-select">
+     <option value="popularity.desc">Más Populares</option>
+     <option value="vote_average.desc">Mejor Valoradas</option>
+     <option value="primary_release_date.desc">Más Recientes</option>
+    </select>
+
+    <input
+     type="number"
+     id="year-input"
+     placeholder="Año"
+     min="1900"
+     max="2025"
+    />
+    <button type="submit">Filtrar</button>
+   </form>
+
+   <div id="loader" class="loader">Cargando...</div>
+   <div id="grid-container" class="grid-container"></div>
+  </div>
+
+  <!-- Variable global para saber qué cargar -->
+  <script>
+   const PAGE_TYPE = 'movie'
+  </script>
+  <script src="../js/api.js"></script>
+  <script src="../js/listing.js"></script>
+ </body>
+</html>
