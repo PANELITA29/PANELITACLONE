@@ -16,7 +16,7 @@ Diseño responsive
 
 Uso responsable de Inteligencia Artificial como herramienta de aprendizaje
 
-** Demo en Producción**
+ Demo en Producción
 
 🔗 Sitio desplegado en:
 (https://panelita-clone.netlify.app/)
@@ -55,7 +55,7 @@ Endpoints utilizados:
 /genre/movie/list
 
 Ejemplo de conexión:
-const API_KEY = "TU_API_KEY";
+const API_KEY =ce683597765b9e89359356b518e3b724;
 const BASE_URL = "https://api.themoviedb.org/3";
 
 async function getPopularMovies() {
@@ -65,7 +65,7 @@ async function getPopularMovies() {
 }
 
 
-**Personalización del Proyecto**
+Personalización del Proyecto
 
 Para demostrar autoría y comprensión del código, se añadieron mejoras propias:
 
@@ -81,7 +81,7 @@ Mejoras en experiencia de usuario
 
 Estilo UI diferente al diseño base
 
-** Uso de Inteligencia Artificial**
+ Uso de Inteligencia Artificial
 
 La Inteligencia Artificial fue utilizada como herramienta de aprendizaje para:
 
