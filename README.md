@@ -98,5 +98,11 @@ Optimizar funciones
 Entender la lógica general del sistema
 
 El código del proyecto se encuentra comentado para facilitar su comprensión.
-![Uploading image.png…]()
+
+
+Autor
+
+Juan David González Alarcón 11-03
+Proyecto académico – Desarrollo Web 
+                                                                                                                                                                                                                                  
 
